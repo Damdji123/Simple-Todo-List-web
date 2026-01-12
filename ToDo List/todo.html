@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Todo List</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <nav class="nav-bar">
+            <p>Todo<span>App</span></p>
+            <ul id="nav-menu">
+                <li><a href="home.html">Home</a></li>
+                <li><a class="active" href="todo.html">Todo</a></li>
+                <li><a href="feature.html">Features</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+             <div class="hamburger" id="hamburger">
+                ☰
+            </div>
+        </nav>
+    </header>
+    <section>
+        <div class="todoSection1">
+            <h1>My Todo List</h1>
+        </div>
+    </section>
+
+    <section>
+        <div class="divList">
+            <h2 class="ListParag">My Todo List</h2>
+            <div class="list">
+                <input class="taskInput" id="task-input" type="text" placeholder="Enter a new task">
+                <button class="addBtn" id="todo-add-btn">Add</button>
+                <div class="display" id="display">
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <footer>
+        <p>@ 2026 TodoApp All rights reserved</p>
+    </footer>
+    <script src="scripts/hamberger.js"></script>
+    <script type="module" src="scripts/todo.js"></script>
+</body>
+</html>
